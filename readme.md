@@ -10,6 +10,14 @@ $ cd ls-advanced-portfolio
 $ yarn
 ```
 
+
+## Name
+Vadim Kuznetsov
+
+##Date
+April 27 2020
+
+
 ## Скрипты package.json:
 
 | Скрипт | Назначение |
