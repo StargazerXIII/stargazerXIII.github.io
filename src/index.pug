@@ -10,7 +10,7 @@ html(lang="en")
   body
     .wrapper
       .welcome-section
-        .section.hero
+        .section.person
           .container
             .header.header
               .header__logo
@@ -30,7 +30,12 @@ html(lang="en")
                         li.social__item
                           a.social__link (href="")
                             +icon(item, "social__icon")
-
+            .person__content
+              .person-info
+                .person-info__desc Личный сайт
+                .person-info__name Вадим Кузнецов
+            .person__scroll--btn
+              a(href="#").scroll-down-btn
       //.maincontent
         +image('content/user.jpg', 'user-pic')
         +icon('link', 'link-class')
